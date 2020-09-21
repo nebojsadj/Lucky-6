@@ -1,5 +1,4 @@
 
-
 function klizaci() {
   let crvena = loptice.filter(red => red.includes('class="red"'));
   let braon = loptice.filter(red => red.includes('class="brown"'));

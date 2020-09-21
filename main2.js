@@ -16,24 +16,18 @@ function insertBoxes() {
 };
 
 function includesBall() {
-
   let counter = 0;
   if (loptice.includes(markedBalls[0])) {
       counter++;
-  }
-  if (loptice.includes(markedBalls[1])) {
+  }else if (loptice.includes(markedBalls[1])) {
       counter++;
-  }
-  if (loptice.includes(markedBalls[2])) {
+  }else if (loptice.includes(markedBalls[2])) {
       counter++;
-  }
-  if (loptice.includes(markedBalls[3])) {
+  }else if (loptice.includes(markedBalls[3])) {
       counter++;
-  }
-  if (loptice.includes(markedBalls[4])) {
+  }else if (loptice.includes(markedBalls[4])) {
       counter++;
-  }
-  if (loptice.includes(markedBalls[5])) {
+  }else if (loptice.includes(markedBalls[5])) {
       counter++;
   }
   if (counter === 6) {
@@ -86,7 +80,7 @@ function sat() {
     m = '0' + m;
   }
   setTimeout(sat,1000);
-  document.querySelector('#sat').innerHTML = d.getHours() +':'+ m;
+  sat_.innerHTML = d.getHours() +':'+ m;
 };
 
 

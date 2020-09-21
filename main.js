@@ -28,6 +28,7 @@ function play() {
     insertHolders();
     insertTopHolders();
     insertChannels();
+    klizaci();
     sat();
 
   allHolders = document.querySelectorAll('.kuglica');
