@@ -7,9 +7,9 @@ function play() {
   const container2 = document.querySelector('#container2');
   let brIzvlacenja = document.querySelector('#brIzvlacenja');
   const wrapp2 = document.querySelector('#wrapp2');
+  let counter = 0;
 
   index = 0;
-  let counter = 0;
   markedBalls.length = 0;
   loptice.length = 0;
   zbir5.innerHTML = 0;
@@ -28,7 +28,6 @@ function play() {
     insertHolders();
     insertTopHolders();
     insertChannels();
-    klizaci();
     sat();
 
   allHolders = document.querySelectorAll('.kuglica');

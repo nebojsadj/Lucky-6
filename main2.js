@@ -19,15 +19,20 @@ function includesBall() {
   let counter = 0;
   if (loptice.includes(markedBalls[0])) {
       counter++;
-  }else if (loptice.includes(markedBalls[1])) {
+  }
+  if (loptice.includes(markedBalls[1])) {
       counter++;
-  }else if (loptice.includes(markedBalls[2])) {
+  }
+  if (loptice.includes(markedBalls[2])) {
       counter++;
-  }else if (loptice.includes(markedBalls[3])) {
+  }
+  if (loptice.includes(markedBalls[3])) {
       counter++;
-  }else if (loptice.includes(markedBalls[4])) {
+  }
+  if (loptice.includes(markedBalls[4])) {
       counter++;
-  }else if (loptice.includes(markedBalls[5])) {
+  }
+  if (loptice.includes(markedBalls[5])) {
       counter++;
   }
   if (counter === 6) {
