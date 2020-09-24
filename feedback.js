@@ -1,6 +1,5 @@
 let allBoxes;
 let allColors;
-
 const restartBtn = document.querySelector('#res');
 const clickFor = document.querySelector('#click');
 let index;
@@ -9,7 +8,6 @@ let allHolders;
 let loptice = [];
 let markedBalls = [];
 let zbir5 = document.querySelector('#zbir5');
-
 let zadnjiBr;
 let uplata = document.querySelector('input[placeholder="uplata"]');
 let uplataVal;
@@ -33,8 +31,21 @@ let sat_ = document.querySelector('#sat');
 
 function uplate() {
    uplataVal = parseInt(uplata.value);
-   clickFor.style.color = 'aqua';
-   clickFor.style.background = '#595959';
+   uplata.style.background = 'green';
+
+   if (Number.isInteger(uplataVal) === false ) {
+     alert('Pogresan unos!');
+     uplata.style.background = 'red';
+   }else {
+     clickFor.style.color = 'aqua';
+     clickFor.style.background = '#595959';
+     uplataBtn.style.background = '#999999';
+     uplataBtn.style.color = '#a6a6a6';
+     manjeBtn.style.background = '#999999';
+     manjeBtn.style.color = '#a6a6a6';
+     viseBtn.style.background = '#999999';
+     viseBtn.style.color = '#a6a6a6';
+   }
 };
 
 function kvote() {

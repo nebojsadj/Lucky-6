@@ -487,18 +487,17 @@ h1{
   line-height: 30px;
   text-align: center;
   font-size: 24px;
-  background-color: #595959;
-  color: gold;
+  background-color: yellow;
   position: absolute;
 }
 #uplataBtn{
   width: 125px;
   height: 33px;
-  background-color: #595959;
-  color: white;
+  background-color: aqua;
   position: absolute;
   margin-left: 87px;
   font-size: 16px;
+  cursor: pointer;
 }
 p{
   position: absolute;
@@ -509,8 +508,7 @@ p{
 #manje{
   width: 80px;
   height: 33px;
-  background-color: #595959;
-  color: white;
+  background-color: aqua;
   position: absolute;
   margin-left: 415px;
   font-size: 16px;
@@ -529,8 +527,7 @@ p{
 #vise{
   width: 80px;
   height: 33px;
-  background-color: #595959;
-  color: white;
+  background-color: aqua;
   position: absolute;
   margin-left: 563px;
   font-size: 16px;

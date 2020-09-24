@@ -88,8 +88,6 @@ function sat() {
   sat_.innerHTML = d.getHours() +':'+ m;
 };
 
-
-
 function restart() {
   restartBtn.style.color = 'aqua';
   restartBtn.style.background = '#595959';
@@ -98,10 +96,18 @@ function restart() {
     restartBtn.style.background = '#999999';
     clickFor.style.color = 'aqua';
     clickFor.style.background = '#595959';
+    uplata.style.background = 'yellow';
+    uplataBtn.style.background = 'aqua';
+    uplataBtn.style.color = 'black';
+    manjeBtn.style.background = 'aqua';
+    manjeBtn.style.color = 'black';
+    viseBtn.style.background = 'aqua';
+    viseBtn.style.color = 'black';
     document.querySelector('body').style.background = 'none';
     play();
   }
 };
+
 function pogodak() {
   document.querySelector('body').style.background = 'gold';
   let mark = [];
