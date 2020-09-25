@@ -20,6 +20,7 @@ let manjeBtn = document.querySelector('#manje');
 let viseBtn = document.querySelector('#vise');
 let dobitakPolje = document.querySelector('#dobitak');
 let sat_ = document.querySelector('#sat');
+let body = document.querySelector('body');
 
   uplataBtn.addEventListener('click', uplate);
   manjeBtn.onclick = function () {
