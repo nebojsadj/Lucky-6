@@ -163,7 +163,7 @@ function play() {
     play.removeEventListener('click',luckyNumbers);
     indexI++;
     brIzvlacenja.innerHTML = indexI;
-    let loop = setInterval(run,800);
+    let loop = setInterval(run,8);
 
     function run() {
       let r = Math.floor(Math.random() * copyArr3.length);
@@ -175,6 +175,7 @@ function play() {
         klizaci();
       }else {
         clearInterval(loop);
+        feedback.style.background = 'red';
         allFive();
         includesBall();
         restart();

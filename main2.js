@@ -103,13 +103,14 @@ function restart() {
     manjeBtn.style.color = 'black';
     viseBtn.style.background = 'aqua';
     viseBtn.style.color = 'black';
-    body.style.background = 'none';
+    feedback.style.background = 'none';
     play();
   }
 };
 
 function pogodak() {
-  body.style.background = 'gold';
+  success.play();
+  feedback.style.background = 'green';
   let mark = [];
   let mark1 = loptice.indexOf(markedBalls[0]);
   let mark2 = loptice.indexOf(markedBalls[1]);

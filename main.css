@@ -83,10 +83,18 @@ h1{
 
 #wrapp3{
   width: 1138px;
-  height: 846px;
+  height: 945px;
   border: 1px solid none;
-  margin: 40px auto;
+  margin: 10px auto;
 }
+
+#feedback{
+  width: 1136px;
+  height: 60px;
+  border: 1px solid none;
+  margin-top: 20px;
+}
+
 #click{
   width: 420px;
   height: 40px;
