@@ -4,21 +4,19 @@
 }
 
 h1{
-  width: 1130px;
+  width: 1138px;
   height: 60px;
   line-height: 60px;
   border: 1px solid none;
   background-color: #595959;
   color: red;
-  margin: auto;
   text-align: center;
 }
 
 #wrapp{
-  width: 1130px;
+  width: 1138px;
   height: 70px;
   border: 1px solid none;
-  margin: auto;
   background-color: #595959;
 }
 #izvlacenje{
@@ -70,9 +68,8 @@ h1{
 }
 
 #wrapp1{
-  width: 1130px;
+  width: 1138px;
   height: 170px;
-  margin: auto;
   border: 1px solid none;
   background-color: #595959;
 }
@@ -83,13 +80,20 @@ h1{
   margin-top: 10px;
   border: 1px solid none;
 }
+
+#wrapp3{
+  width: 1138px;
+  height: 846px;
+  border: 1px solid none;
+  margin: 40px auto;
+}
 #click{
   width: 420px;
   height: 40px;
   border: 1px solid #aaa;
   text-align: center;
   line-height: 40px;
-  margin-left: 1%;
+  margin-left: 30px;
   margin-top: 10px;
   background-color: #595959;
   font-size: 30px;
@@ -98,16 +102,14 @@ h1{
   user-select: none;
   float: left;
 }
-/* #click:hover{
-  color: aqua;
-} */
+
 #play{
   width: 360px;
   height: 40px;
   border: 1px solid #aaa;
   text-align: center;
   line-height: 40px;
-  margin-left: 1%;
+  margin-left: 30px;
   margin-top: 10px;
   background-color: #999999;
   font-size: 30px;
@@ -122,7 +124,7 @@ h1{
   border: 1px solid #aaa;
   text-align: center;
   line-height: 40px;
-  margin-left: 19%;
+  margin-left: 33px;
   margin-top: 10px;
   background-color: #999999;
   font-size: 30px;
@@ -133,10 +135,9 @@ h1{
 }
 
 .line{
-  width: 1136px;
+  width: 1138px;
   height: 15px;
   border: 1px solid none;
-  margin: auto;
   margin-top: 60px;
   background-color: #595959;
 }
@@ -475,7 +476,7 @@ h1{
   width: 1126px;
   height: 33px;
   border: 1px solid #595959;
-  margin-left: 275px;
+  margin-left: 5px;
   margin-top: 10px;
   background-color: #737373;
   position: relative;
@@ -490,6 +491,7 @@ h1{
   background-color: yellow;
   position: absolute;
 }
+
 #uplataBtn{
   width: 125px;
   height: 33px;
@@ -499,6 +501,7 @@ h1{
   font-size: 16px;
   cursor: pointer;
 }
+
 p{
   position: absolute;
   margin-left: 230px;
