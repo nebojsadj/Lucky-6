@@ -1,27 +1,3 @@
-let allBoxes;
-let allColors;
-const restartBtn = document.querySelector('#res');
-const clickFor = document.querySelector('#click');
-let index;
-let indexI = 0;
-let allHolders;
-let loptice = [];
-let markedBalls = [];
-let zbir5 = document.querySelector('#zbir5');
-let zadnjiBr;
-let uplata = document.querySelector('input[placeholder="uplata"]');
-let uplataVal;
-let kvota = 0;
-let kvotaPolje = document.querySelector('#kvotaPolje');
-let br;
-let drugaKvota;
-let uplataBtn = document.querySelector('#uplataBtn');
-let manjeBtn = document.querySelector('#manje');
-let viseBtn = document.querySelector('#vise');
-let dobitakPolje = document.querySelector('#dobitak');
-let sat_ = document.querySelector('#sat');
-let feedback = document.querySelector('#feedback');
-let success = document.querySelector('#success');
 
   uplataBtn.addEventListener('click', uplate);
   manjeBtn.onclick = function () {
